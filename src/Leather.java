@@ -2,6 +2,6 @@ public class Leather implements IMaterial{
 
     @Override
     public String substance() {
-        return String.format("Il est en %s", getClass().getSimpleName());
+        return String.format("It is made of real %s.", getClass().getSimpleName());
     }
 }

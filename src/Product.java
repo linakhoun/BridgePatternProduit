@@ -1,7 +1,7 @@
-public abstract class Produit {
+public abstract class Product {
     protected IMaterial material;
 
-    public Produit(IMaterial material) {
+    public Product(IMaterial material) {
         this.material = material;
     }
 
