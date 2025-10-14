@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class Sac extends Produit {
 
-public class Sac {
+    public Sac(IMaterial material) {
+        super(material);
+    }
+    @Override
+    public String make() {
+        return String.format("Le sac a été créé. " + material.substance());
+    }
 }

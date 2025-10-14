@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+public class Cotton implements IMaterial {
 
-public class Cotton {
+
+    @Override
+    public String substance() {
+        return String.format("Il est en %s", getClass().getSimpleName());
+    }
 }

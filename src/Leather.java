@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Leather implements IMaterial{
 
-public class Leather {
+    @Override
+    public String substance() {
+        return String.format("Il est en %s", getClass().getSimpleName());
+    }
 }
