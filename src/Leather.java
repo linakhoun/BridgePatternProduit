@@ -1,4 +1,4 @@
-public class Leather implements IMaterial{
+public class Leather implements IMaterial {
 
     @Override
     public String substance() {
