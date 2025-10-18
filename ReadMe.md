@@ -4,7 +4,7 @@
 
 ### Pourquoi il existe
 Le patron du pont existe pour solutionner des projets qui contiennent des objets de classes différentes partageant quelques propriétés et sous-classes en commun.
-Plutôt que de créer une copie d'une sous-classe à une autre et d'y connecter à une superclasse par héritage, on peut se servir de la méthode de composition
+Plutôt que de créer une copie d'une sous-classe à une autre et d'y connecter à une superclasse par héritage, on peut se servir de la méthode de composition.
 Deux objets avec les même sous-classes ne peuvent pas partager la même hiérarchie par héritage puisque la connection est directe : de parents à enfants.
 Grâce à l'implémentation de la composition (par classe d'abstraction ou par interface), un autre objet de classe différente peut avoir accès aux mêmes méthodes et paramètres qu'une autre classe du même niveau.
 
